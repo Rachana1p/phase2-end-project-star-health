@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="testsuite2" verbose="1" parallel="tests">
+<test name="StarHealthPage">
+<parameter name="name"  value="admin"/>
+<parameter name="mobile"  value="9380756810"/>
+<parameter name="pincode"  value="585326"/>
+<classes>
+<class name="phase2project.StartHealthPage">
+</class>
+</classes>
+</test>
+
+<test name="starhealth002">
+
+<classes>
+<class name="phase2project.Starhealth002">
+</class>
+</classes>
+</test>
+
+
+</suite>
